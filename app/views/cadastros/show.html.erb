@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @cadastro.nome %>
+</p>
+
+<p>
+  <strong>Nasc:</strong>
+  <%= @cadastro.nasc %>
+</p>
+
+<p>
+  <strong>Endereco:</strong>
+  <%= @cadastro.endereco %>
+</p>
+
+<p>
+  <strong>Bairro:</strong>
+  <%= @cadastro.bairro %>
+</p>
+
+<p>
+  <strong>Cidade:</strong>
+  <%= @cadastro.cidade %>
+</p>
+
+<p>
+  <strong>Estado:</strong>
+  <%= @cadastro.estado %>
+</p>
+
+<p>
+  <strong>Cep:</strong>
+  <%= @cadastro.cep %>
+</p>
+
+<p>
+  <strong>Genero:</strong>
+  <%= @cadastro.genero %>
+</p>
+
+<%= link_to 'Edit', edit_cadastro_path(@cadastro) %> |
+<%= link_to 'Back', cadastros_path %>
